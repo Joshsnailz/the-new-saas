@@ -1,4 +1,4 @@
-Paste the following into `README.md`. I have framed Trainline as evidence of digital ticket retailing rather than a confirmed developer API, because public partner API access still needs validation.
+
 
 ````markdown
 # Sell My Return
