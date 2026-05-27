@@ -1,0 +1,12 @@
+{
+  "name": "@sellmyreturn/api",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "build": "node ./scripts/build.mjs",
+    "lint": "node ./scripts/lint.mjs",
+    "typecheck": "node ./scripts/typecheck.mjs",
+    "test": "node ./scripts/test.mjs",
+    "start": "node ./src/server.js"
+  }
+}
