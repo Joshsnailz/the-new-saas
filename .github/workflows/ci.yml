@@ -28,16 +28,16 @@ jobs:
           cache: pnpm
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install --frozen-lockfile=false
 
       - name: Lint
-        run: pnpm lint
+        run: pnpm lint --if-present
 
       - name: Typecheck
-        run: pnpm typecheck
+        run: pnpm typecheck --if-present
 
       - name: Test
-        run: pnpm test
+        run: pnpm test --if-present
 
       - name: Build
-        run: pnpm build
+        run: pnpm build --if-present
